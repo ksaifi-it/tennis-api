@@ -10,6 +10,11 @@ These instructions will help you build and run the Tennis API application using 
 
 Make sure you have Docker installed on your machine.
 
+### Preview the app
+
+The application is deployed on EC2 instance available at :  
+http://ec2-15-188-87-172.eu-west-3.compute.amazonaws.com/swagger-ui/index.html 
+
 ### Pull the image from dockerHub
 
 To pull the image directly from the docker Hub run the following command:
@@ -41,4 +46,5 @@ The Swagger UI page will be available at : http://server:port/context-path/swagg
 
 the OpenAPI description will be available at the following url for json format: http://server:
 port/context-path/v3/api-docs
+
 
