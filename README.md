@@ -10,6 +10,13 @@ These instructions will help you build and run the Tennis API application using 
 
 Make sure you have Docker installed on your machine.
 
+### Pull the image from dockerHub
+
+To pull the image directly from the docker Hub run the following command:
+ ```bash
+  docker pull ksait/tennis-api
+```
+
 ### Building and run the Docker Image
 
 To build the Docker image, follow these steps:
@@ -28,7 +35,6 @@ To build the Docker image, follow these steps:
    ```bash
    docker run -p 8080:8080 tennis-api
     ```
-
 ## API documentation
 
 The Swagger UI page will be available at : http://server:port/context-path/swagger-ui.html
